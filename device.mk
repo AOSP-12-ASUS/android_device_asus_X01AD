@@ -83,7 +83,11 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.gnss@2.1.vendor \
-    android.hardware.radio.deprecated@1.0.vendor
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hidl.allocator@1.0.vendor \
+    android.hardware.drm@1.1.vendor \
+    android.hardware.drm@1.2.vendor \
+    android.hardware.power@1.2.vendor
 
 # ANT
 PRODUCT_PACKAGES += \
@@ -142,6 +146,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
+    android.frameworks.displayservice@1.0.vendor \
     android.hardware.camera.common@1.0 \
     android.hardware.camera.device@3.4  \
     android.hardware.camera.provider@2.4-impl \
@@ -362,6 +367,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
+    android.frameworks.sensorservice@1.0.vendor \
     libsensorndkbridge
 
 PRODUCT_COPY_FILES += \
